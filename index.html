@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Asteniva Gultom Portfolio</title>
+<meta name="description" content="Portofolio Asteniva Gultom: Informatics Graduate, Data Analyst, Data Science Enthusiast.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="Beranda"><i>AG</i><span>Asteniva Gultom</span></a>
+    <nav class="links" id="links" aria-label="Navigasi utama">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#organization">Organization</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="iconbtn" id="themeBtn" type="button" aria-label="Ganti tema terang atau gelap">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+    <button class="iconbtn burger" id="burger" type="button" aria-label="Buka menu" aria-expanded="false">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- 1. HERO -->
+<section class="sec" id="home">
+  <div class="mosaic hero">
+    <div class="panel panel-turq hero-main">
+      <svg class="leaf" style="right:-30px;top:-20px;width:190px;transform:rotate(25deg)" viewBox="0 0 100 100" fill="#fff"><path d="M5 95C5 40 40 5 95 5c0 55-35 90-90 90z"/></svg>
+      <svg class="leaf" style="right:120px;bottom:-40px;width:130px;transform:rotate(-60deg)" viewBox="0 0 100 100" fill="#fff"><path d="M5 95C5 40 40 5 95 5c0 55-35 90-90 90z"/></svg>
+      <span class="kicker">Creative Portfolio</span>
+      <h1 class="name"><span>Asteniva</span><span class="outline">Gultom</span></h1>
+      <div class="roles"><span>Informatics Graduate</span><span>Data Analyst</span><span>Data Science Enthusiast</span></div>
+      <p class="lead">Lulusan S1 Informatika yang mengubah data menjadi wawasan: dari analisis dan visualisasi sampai machine learning dan aplikasi web.</p>
+      <div class="cta-row">
+        <a class="btn btn-solid" id="cvBtn" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4.5-4.5M12 15l4.5-4.5M4 20h16"/></svg>Download CV</a>
+        <a class="btn btn-line" href="#contact">Contact Me</a>
+      </div>
+      <div class="socials" data-socials aria-label="Tautan sosial"></div>
+    </div>
+    <div class="panel hero-photo">
+      <span class="tag">Data · Analytics · Science</span>
+      <span class="big" aria-hidden="true">AG</span>
+      <figure class="ph" data-photo="profile" data-label="Foto profil" data-alt="Foto profil Asteniva Gultom"></figure>
+    </div>
+  </div>
+  <div class="mosaic strip" style="margin-top:var(--seam)">
+    <div class="panel panel-paper rv"><svg class="g" viewBox="0 0 48 48" fill="none"><rect x="6" y="26" width="8" height="16" rx="2" fill="#22B8C6"/><rect x="20" y="14" width="8" height="28" rx="2" fill="#0C6E7B"/><rect x="34" y="6" width="8" height="36" rx="2" fill="#7ADBE2"/></svg><div><h3>Data Analysis</h3><p>Olah, analisis, lalu visualisasikan.</p></div></div>
+    <div class="panel panel-deep rv"><svg class="g" viewBox="0 0 48 48" fill="none" stroke="#7ADBE2" stroke-width="3" stroke-linecap="round"><circle cx="10" cy="12" r="4"/><circle cx="10" cy="36" r="4"/><circle cx="26" cy="24" r="4"/><circle cx="40" cy="24" r="4" fill="#7ADBE2"/><path d="M14 13l8 8M14 35l8-8M30 24h6"/></svg><div><h3>Machine Learning</h3><p>Klasifikasi dengan SVM di Python.</p></div></div>
+    <div class="panel panel-turq rv"><svg class="g" viewBox="0 0 48 48" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="9" width="38" height="30" rx="4"/><path d="M5 17h38M20 25l-4 4 4 4M28 25l4 4-4 4"/></svg><div><h3>Web Development</h3><p>PHP, MySQL, WordPress.</p></div></div>
+  </div>
+</section>
+
+<!-- 2. ABOUT -->
+<section class="sec" id="about">
+  <div class="mosaic about">
+    <div class="panel panel-paper rv">
+      <h2 class="poster on-paper">About Me</h2>
+      <p class="bio">Saya merupakan lulusan S1 Informatika Universitas Mercu Buana Yogyakarta yang memiliki ketertarikan pada bidang Data Science, Data Analyst, pengolahan data, visualisasi data, dan pengembangan teknologi. Memiliki pengalaman dalam proyek analisis data, machine learning, serta pengembangan aplikasi berbasis web. Saya senang mempelajari hal baru, menyelesaikan permasalahan, dan mengembangkan kemampuan di bidang teknologi informasi.</p>
+    </div>
+    <div class="panel panel-deep rv" style="display:flex;flex-direction:column">
+      <h3 style="font-size:1.25rem;font-weight:800">Fokus saya</h3>
+      <ul class="focus-list">
+        <li>Data Science</li><li>Data Analyst</li><li>Visualisasi data</li><li>Machine learning</li><li>Pengembangan web</li>
+      </ul>
+      <div class="edu-mini" style="margin-top:24px"><b>S1 Informatika</b><span>Universitas Mercu Buana Yogyakarta</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. EXPERIENCE -->
+<section class="sec" id="experience">
+  <div class="mosaic">
+    <div class="panel panel-ink" style="padding-block:20px"><h2 class="poster">Work Experience</h2></div>
+    <div class="mosaic xp rv">
+      <div class="panel panel-turq side">
+        <figure class="ph logo" data-photo="logo-vinix7" data-label="Logo" data-alt="Logo VINIX7 Aurum"></figure>
+        <span class="date">Februari – Juni 2025</span>
+        <div><h3>VINIX7 Aurum</h3><p>MSIB / MBKM Mandiri</p></div>
+      </div>
+      <div class="panel panel-paper main">
+        <h3 class="role">Data Scientist</h3>
+        <ul class="ticks">
+          <li>Mengolah dan membersihkan data mentah agar siap dianalisis.</li>
+          <li>Menganalisis data untuk menemukan pola dan insight.</li>
+          <li>Membuat visualisasi data dan dashboard yang mudah dibaca.</li>
+          <li>Menyajikan hasil analisis kepada tim dalam laporan ringkas.</li>
+        </ul>
+        <div class="chips"><span class="chip">Python</span><span class="chip">Google Colab</span><span class="chip">Looker Studio</span><span class="chip">Microsoft Excel</span></div>
+      </div>
+      <div class="panel panel-ink" style="grid-column:1/-1">
+        <div class="docs-cap"><b>Dokumentasi kegiatan & hasil pekerjaan</b><span>Klik kotak foto untuk mencoba gambar Anda, atau isi di PHOTOS pada kode.</span></div>
+        <div class="mosaic docs">
+          <figure class="ph" data-photo="exp-1" data-label="Dokumentasi kegiatan" data-alt="Dokumentasi kegiatan magang"></figure>
+          <figure class="ph" data-photo="exp-2" data-label="Dashboard hasil kerja" data-alt="Dashboard hasil kerja"></figure>
+          <figure class="ph" data-photo="exp-3" data-label="Presentasi hasil" data-alt="Presentasi hasil analisis"></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. PROJECTS -->
+<section class="sec" id="projects">
+  <div class="mosaic">
+    <div class="panel panel-turq" style="padding-block:20px"><h2 class="poster">Project Portfolio</h2></div>
+    <div class="mosaic proj">
+
+      <article class="panel panel-paper card rv">
+        <div class="thumbbox"><figure class="ph thumb" data-photo="proj-1" data-alt="Dashboard Looker Studio">
+          <svg viewBox="0 0 400 225" aria-hidden="true"><rect width="400" height="225" fill="#EAF8F9"/><rect x="0" y="0" width="400" height="34" fill="#0A5560"/><circle cx="18" cy="17" r="5" fill="#7ADBE2"/><rect x="32" y="12" width="70" height="10" rx="5" fill="#7ADBE2" opacity=".7"/>
+          <rect x="16" y="48" width="112" height="52" rx="8" fill="#fff"/><rect x="144" y="48" width="112" height="52" rx="8" fill="#fff"/><rect x="272" y="48" width="112" height="52" rx="8" fill="#fff"/>
+          <rect x="28" y="60" width="40" height="7" rx="3" fill="#9ED7DD"/><rect x="28" y="75" width="64" height="14" rx="4" fill="#0C6E7B"/><rect x="156" y="60" width="40" height="7" rx="3" fill="#9ED7DD"/><rect x="156" y="75" width="50" height="14" rx="4" fill="#22B8C6"/><rect x="284" y="60" width="40" height="7" rx="3" fill="#9ED7DD"/><rect x="284" y="75" width="72" height="14" rx="4" fill="#0C6E7B"/>
+          <rect x="16" y="112" width="232" height="100" rx="8" fill="#fff"/><g fill="#22B8C6"><rect x="34" y="162" width="20" height="40" rx="3"/><rect x="66" y="142" width="20" height="60" rx="3"/><rect x="98" y="152" width="20" height="50" rx="3"/><rect x="130" y="128" width="20" height="74" rx="3"/><rect x="162" y="146" width="20" height="56" rx="3" fill="#0C6E7B"/><rect x="194" y="124" width="20" height="78" rx="3"/></g>
+          <rect x="260" y="112" width="124" height="100" rx="8" fill="#fff"/><circle cx="322" cy="162" r="30" fill="none" stroke="#7ADBE2" stroke-width="16"/><circle cx="322" cy="162" r="30" fill="none" stroke="#0C6E7B" stroke-width="16" stroke-dasharray="70 190" transform="rotate(-90 322 162)"/></svg></figure></div>
+        <div class="body"><h3>Dashboard Data Analysis</h3><p>Dashboard interaktif yang merangkum data dalam grafik dan indikator utama untuk mendukung pengambilan keputusan.</p>
+        <div class="chips"><span class="chip">Looker Studio</span><span class="chip">Visualisasi Data</span></div>
+        <a class="btn btn-teal" data-link="proj-1" href="#" target="_blank" rel="noopener">View Project</a></div>
+      </article>
+
+      <article class="panel panel-paper card rv">
+        <div class="thumbbox"><figure class="ph thumb" data-photo="proj-2" data-alt="Identifikasi rasa jeruk Medan">
+          <svg viewBox="0 0 400 225" aria-hidden="true"><rect width="400" height="225" fill="#0A5560"/><g><circle cx="120" cy="112" r="68" fill="#F59E1B"/><circle cx="120" cy="112" r="56" fill="#FDBD4B"/><g stroke="#F59E1B" stroke-width="3"><path d="M120 56v112M64 112h112M80 72l80 80M160 72l-80 80"/></g><circle cx="120" cy="112" r="8" fill="#F59E1B"/></g>
+          <g><circle cx="262" cy="70" r="26" fill="#F59E1B"/><circle cx="262" cy="70" r="20" fill="#FDBD4B"/><path d="M262 50v40M242 70h40" stroke="#F59E1B" stroke-width="2"/></g>
+          <rect x="226" y="116" width="150" height="14" rx="7" fill="#7ADBE2" opacity=".55"/><rect x="226" y="140" width="110" height="14" rx="7" fill="#7ADBE2" opacity=".35"/>
+          <g><rect x="226" y="170" width="30" height="30" rx="6" fill="#F59E1B"/><rect x="262" y="170" width="30" height="30" rx="6" fill="#D4881A"/><rect x="298" y="170" width="30" height="30" rx="6" fill="#B9791B"/><rect x="334" y="170" width="30" height="30" rx="6" fill="#8D6B1F"/></g></svg></figure></div>
+        <div class="body"><h3>Identifikasi Rasa Buah Jeruk Medan Berbasis Citra Warna dengan Metode SVM</h3><p>Klasifikasi rasa jeruk dari fitur warna citra kulit buah menggunakan Support Vector Machine.</p>
+        <div class="chips"><span class="chip">Python</span><span class="chip">SVM</span><span class="chip">Pengolahan Citra</span><span class="chip">Google Colab</span></div>
+        <a class="btn btn-teal" data-link="proj-2" href="#" target="_blank" rel="noopener">View Project</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 5 & 6. SKILLS -->
+<section class="sec" id="skills">
+  <div class="mosaic skills">
+    <div class="panel panel-turq rv">
+      <h2 class="poster">Software Skill</h2>
+      <div class="icon-box" id="swGrid"></div>
+    </div>
+    <div class="panel panel-paper rv">
+      <h2 class="poster on-paper">Personal Skill</h2>
+      <ul class="pskills">
+        <li>Leadership</li><li>Teamwork</li><li>Communication</li><li>Problem Solving</li><li>Time Management</li><li>Adaptability</li><li>Critical Thinking</li><li>Attention to Detail</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 7. ORGANIZATION -->
+<section class="sec" id="organization">
+  <div class="mosaic">
+    <div class="panel panel-ink" style="padding-block:20px"><h2 class="poster">Organization Experience</h2></div>
+    <div class="mosaic org">
+      <article class="panel panel-deep rv">
+        <h3 class="ribbon">Ketua Himpunan</h3>
+        <span class="when">2024 – 2025</span>
+        <p class="where">Himpunan Informatika</p>
+        <figure class="ph" data-photo="org-1" data-label="Foto kegiatan" data-alt="Kegiatan sebagai Ketua Himpunan Informatika"></figure>
+        <p class="d">Memimpin pengurus, menyusun program kerja, dan mengoordinasikan kegiatan himpunan.</p>
+      </article>
+      <article class="panel panel-deep rv">
+        <h3 class="ribbon">Humas Himpunan</h3>
+        <span class="when">2023 – 2024</span>
+        <p class="where">Himpunan Informatika</p>
+        <figure class="ph" data-photo="org-2" data-label="Foto kegiatan" data-alt="Kegiatan sebagai Humas Himpunan Informatika"></figure>
+        <p class="d">Menjaga komunikasi dengan pihak internal dan eksternal serta mempublikasikan kegiatan.</p>
+      </article>
+      <article class="panel panel-deep rv">
+        <h3 class="ribbon">Anggota Litbang</h3>
+        <span class="when">PERMIKOMNAS</span>
+        <p class="where">Penelitian & Pengembangan</p>
+        <figure class="ph" data-photo="org-3" data-label="Foto kegiatan" data-alt="Kegiatan di Litbang PERMIKOMNAS"></figure>
+        <p class="d">Mendukung riset dan pengembangan program di tingkat nasional.</p>
+      </article>
+    </div>
+    <div class="mosaic wins rv">
+      <div class="panel panel-turq" style="display:flex;align-items:center"><h3 class="poster" style="font-size:clamp(1.05rem,1.6vw,1.4rem);overflow-wrap:anywhere">Kegiatan yang diselenggarakan</h3></div>
+      <div class="panel panel-paper">
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>Webinar Nasional Cyber Security</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="14" cy="12" r="2.5"/><circle cx="21" cy="12" r="1.5"/><path d="M8 7l4 3.5M8 17l4-3.5M16.5 12h3"/></svg>Seminar Nasional Machine Learning</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 10v5M4.5 12.5h5M16 11h.01M18.5 14h.01"/></svg>Tournament E-Sport Mobile Legends</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. ACTIVITIES -->
+<section class="sec" id="activities">
+  <div class="mosaic">
+    <div class="panel panel-turq">
+      <div class="gal-head">
+        <h2 class="poster">Activities &amp; Achievements</h2>
+        <div class="filters" id="filters" role="group" aria-label="Filter dokumentasi">
+          <button type="button" data-f="all" aria-pressed="true">Semua</button>
+          <button type="button" data-f="sertifikat" aria-pressed="false">Sertifikat</button>
+          <button type="button" data-f="kampus" aria-pressed="false">Kampus</button>
+          <button type="button" data-f="kkn" aria-pressed="false">KKN</button>
+          <button type="button" data-f="panitia" aria-pressed="false">Kepanitiaan</button>
+          <button type="button" data-f="seminar" aria-pressed="false">Seminar</button>
+        </div>
+      </div>
+    </div>
+    <div class="mosaic gal rv" id="gal">
+      <figure class="wide" data-cat="kampus"><div class="ph" data-photo="gal-1" data-label="Kegiatan kampus" data-alt="Kegiatan kampus"></div><figcaption>Kegiatan kampus<span class="cat">Kampus</span></figcaption></figure>
+      <figure data-cat="sertifikat"><div class="ph" data-photo="gal-2" data-label="Sertifikat" data-alt="Sertifikat"></div><figcaption>Sertifikat<span class="cat">Sertifikat</span></figcaption></figure>
+      <figure data-cat="kkn"><div class="ph" data-photo="gal-3" data-label="KKN" data-alt="Dokumentasi KKN"></div><figcaption>KKN<span class="cat">KKN</span></figcaption></figure>
+      <figure data-cat="panitia"><div class="ph" data-photo="gal-4" data-label="Kepanitiaan" data-alt="Dokumentasi kepanitiaan"></div><figcaption>Kepanitiaan<span class="cat">Kepanitiaan</span></figcaption></figure>
+      <figure data-cat="seminar"><div class="ph" data-photo="gal-5" data-label="Seminar" data-alt="Dokumentasi seminar"></div><figcaption>Seminar<span class="cat">Seminar</span></figcaption></figure>
+      <figure class="wide" data-cat="panitia"><div class="ph" data-photo="gal-6" data-label="Kepanitiaan" data-alt="Dokumentasi kepanitiaan"></div><figcaption>Kepanitiaan<span class="cat">Kepanitiaan</span></figcaption></figure>
+      <figure data-cat="sertifikat"><div class="ph" data-photo="gal-7" data-label="Sertifikat" data-alt="Sertifikat"></div><figcaption>Sertifikat<span class="cat">Sertifikat</span></figcaption></figure>
+      <figure data-cat="kampus"><div class="ph" data-photo="gal-8" data-label="Kegiatan kampus" data-alt="Kegiatan kampus"></div><figcaption>Kegiatan kampus<span class="cat">Kampus</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 9. EDUCATION -->
+<section class="sec" id="education">
+  <div class="mosaic edu">
+    <div class="panel panel-deep rv">
+      <h2 class="poster" style="font-size:1.3rem">Education</h2>
+      <div><h3 class="deg">S1 Informatika</h3><p class="uni" style="margin-top:10px">Universitas Mercu Buana Yogyakarta</p></div>
+      <div class="chips"><span class="chip glass">Data Science</span><span class="chip glass">Machine Learning</span><span class="chip glass">Web</span></div>
+    </div>
+    <div class="panel panel-paper rv">
+      <h2 class="poster on-paper" style="font-size:1.6rem">Certifications</h2>
+      <div class="certs">
+        <div class="cert"><figure class="ph" data-photo="cert-1" data-label="Sertifikat MCF" data-alt="Sertifikat Microsoft Certified Fundamentals"></figure><h4>Microsoft Certified Fundamentals</h4><p>MCF</p></div>
+        <div class="cert"><figure class="ph" data-photo="cert-2" data-label="Sertifikat TOEFL" data-alt="Sertifikat TOEFL"></figure><span class="score">567</span><h4>TOEFL Score</h4></div>
+        <div class="cert"><figure class="ph" data-photo="cert-3" data-label="Sertifikat pelatihan" data-alt="Sertifikat pelatihan dan kepanitiaan"></figure><h4>Pelatihan &amp; Kepanitiaan</h4><p>Sertifikat yang relevan</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. CONTACT -->
+<section class="sec" id="contact">
+  <div class="mosaic contact">
+    <div class="panel panel-ink rv">
+      <div><h2>Mari<br>berdiskusi.</h2><p style="margin-top:14px;color:#BFE6EA;max-width:38ch">Terbuka untuk peluang di bidang data dan teknologi. Kirim pesan, saya akan membalas secepatnya.</p></div>
+      <div class="clist" id="clist"></div>
+    </div>
+    <div class="panel panel-paper rv">
+      <form id="msgForm" novalidate>
+        <label for="fName">Nama<input id="fName" name="nama" autocomplete="name" placeholder="Nama Anda" required></label>
+        <label for="fMail">Email<input id="fMail" name="email" type="email" autocomplete="email" placeholder="nama@perusahaan.com" required></label>
+        <label for="fMsg">Pesan<textarea id="fMsg" name="pesan" placeholder="Tulis pesan Anda" required></textarea></label>
+        <button class="btn btn-teal" type="submit" style="justify-self:start">Buat Pesan</button>
+        <div class="out" id="out" hidden></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer><div class="wrap">© 2026 Asteniva Gultom · Informatics Graduate | Data Analyst | Data Science Enthusiast</div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/config.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
